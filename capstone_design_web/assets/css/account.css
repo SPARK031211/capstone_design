@@ -1,0 +1,143 @@
+.account-box {
+  background: white;
+  border-radius: 7px;
+  padding: 35px;
+}
+.account-box:first-child {
+  margin-bottom: 15px;
+}
+.account-box:last-child {
+  margin-bottom: 15px;
+}
+.account-box h4 {
+  font-weight: bold;
+}
+
+.memberinfo-table {
+  margin-top: 25px;
+  width: 100%;
+  border: 1px solid rgb(128, 128, 128, .2);
+  border-radius: 7px;
+  overflow: hidden;
+  border-collapse: unset;
+}
+.memberinfo-table th {
+  display: none;
+}
+.memberinfo-table td {
+  display: block;
+  border-top: 1px solid rgb(128, 128, 128, .2);
+  border-bottom: 1px solid rgb(128, 128, 128, .2);
+}
+.memberinfo-table td:before {
+  content: attr(data-th);
+  width: 100px;
+  display: inline-block;
+  background: #F7F7F7;
+  color: black;
+  padding: 7px 14px;
+  margin-right: 7px;
+}
+
+.memberinfo-table td,
+.memberinfo-table th {
+  text-align: left;
+}
+
+/****************************/
+
+.signlog-table {
+  margin-top: 25px;
+  width: 100%;
+  border: 1px solid rgb(128, 128, 128, .2);
+  border-radius: 7px;
+  overflow: hidden;
+  border-collapse: unset;
+}
+.signlog-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.signlog-table th {
+  display: none;
+}
+.signlog-table td {
+  display: block;
+}
+.signlog-table td:first-child {
+  padding-top: 8px;
+}
+.signlog-table td:last-child {
+  padding-bottom: 8px;
+}
+.signlog-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 80px;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .signlog-table td:before {
+    display: none;
+  }
+}
+.signlog-table td,
+.signlog-table th {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .signlog-table td,
+  .signlog-table th {
+    display: table-cell;
+    padding: 4px 8px;
+  }
+  .signlog-table td:first-child,
+  .signlog-table th:first-child {
+    padding-left: 0;
+  }
+  .signlog-table td:last-child,
+  .signlog-table th:last-child {
+    padding-right: 0;
+  }
+}
+
+.signlog-table tr {
+  border-color: #46637f;
+}
+.signlog-table td,
+.signlog-table th {
+  margin: 8px 16px;
+}
+@media (min-width: 480px) {
+  .signlog-table td,
+  .signlog-table th {
+    padding: 16px !important;
+  }
+}
+
+/****************************/
+
+.btn-del-account {
+  outline: 0;
+  border: 0;
+  border-radius: 7px;
+  padding: 6px 12px;
+  background: rgb(243, 63, 63, .8);
+  color: #FFF;
+  font-size: 16px;
+}
+.btn-del-account:hover {
+  background: rgb(243, 63, 63);
+  color: #FFF;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/****************************/
+
+#layout_signin, #layout_signup {
+  display: none;
+}

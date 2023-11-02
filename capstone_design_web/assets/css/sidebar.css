@@ -1,0 +1,82 @@
+#sidebar {
+  z-index: 9999;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #FFF;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #000;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  cursor: default;
+}
+
+#sidebar header a:hover {
+  color: #000;
+}
+
+#sidebar .nav {
+  margin: 20px 0;
+}
+
+#sidebar .nav li {
+  margin: 4px 0;
+}
+
+#sidebar .nav a {
+  color: #808080;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 24px;
+  margin: 0 20px;
+  border-radius: 7px;
+}
+
+#sidebar .nav a:hover {
+  background: #C9EEfC;
+  color: #000;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#sidebar .nav a i {
+  width: 20px;
+  margin-right: 16px;
+}
+
+.navbar {
+  z-index: 1000;
+  background: #FFF;
+  border-radius: 0;
+  border: 0;
+}
+
+.m-nav {
+  display: flex;
+  float: right!important;
+  margin-right: -15px;
+}
+
+@media screen and (min-width: 769px) {
+  .m-nav .m-navbtn {
+    display: none;
+  }
+}
