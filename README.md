@@ -12,12 +12,12 @@
   
 |users|user_sign_log|user_admin_log|
 |--|--|--|
-|id||idx||idx|
+|id|idx||idx|
 |username|connected_id|connected_id|
 |password|ipaddress|category|
 |ipaddress|datetime|ipaddress|
-|role|---|datetime|
-|created_at|---|---|
+|role||datetime|
+|created_at|||
   
 </div>
 </details>
