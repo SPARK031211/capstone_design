@@ -41,6 +41,7 @@
 - 만약 Admin 권한을 가지고 있었던 경우에 수집되는 삭제 Log는 삭제되지 않습니다.
 
 [.htaccess 파일]
+---
 capstone_design_web 폴더에 있는 ".htaccess.example" 파일 확장자 ".example"을 삭제한다.   
 또는   
 .htaccess 만들기
