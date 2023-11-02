@@ -1,8 +1,11 @@
 ## Capstone Design Web
 ---
+```
 * capstone design web의 소스 코드를 상업적으로 이용하지 마세요.
----
+```
+
 ###[데이터베이스 테이블 구조]
+---
 <details>
 <summary>접기/펼치기</summary>
 <div markdown="1">
