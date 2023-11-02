@@ -15,14 +15,10 @@
 |username||connected_id||connected_id|
 |password||ipaddress||category|
 |ipaddress||datetime||ipaddress|
-|role||ddd||datetime|
-|created_at||ddd||ddd|
+|role||||datetime|
+|created_at|||||
 </div>
 </details>
-
-<details>
-<summary>접기/펼치기 버튼</summary>
-<div markdown="1">
 
 |제목|내용|
 |--|--|
