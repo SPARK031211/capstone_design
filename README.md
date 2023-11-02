@@ -9,6 +9,7 @@
 <details>
 <summary>접기/펼치기</summary>
 <div markdown="1">
+  
 |users||user_sign_log||user_admin_log|
 |---||---||---|
 |id||idx||idx|
@@ -17,17 +18,7 @@
 |ipaddress||datetime||ipaddress|
 |role||||datetime|
 |created_at|||||
-</div>
-</details>
-
-<details>
-<summary>접기/펼치기 버튼</summary>
-<div markdown="2">
-|제목|내용|
-|--|--|
-|1|1|
-|2|10|
-
+  
 </div>
 </details>
 
