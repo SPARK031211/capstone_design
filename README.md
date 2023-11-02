@@ -37,3 +37,17 @@
 회원탈퇴 버튼을 누르면 누르는 즉시 삭제됩니다.   
 - 로그인 Log는 삭제되지 않습니다.   
 - 만약 Admin 권한을 가지고 있었던 경우에 수집되는 삭제 Log는 삭제되지 않습니다.
+
+[.htaccess 파일]
+capstone_design_web 폴더에 있는 ".htaccess.example" 파일 확장자 ".example"을 삭제한다
+또는
+.htaccess 만들기
+```
+
+
+Options +MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+```
