@@ -9,6 +9,20 @@
 <summary>접기/펼치기</summary>
 <div markdown="1">
   
+|권한|username|password|
+|--|--|--|
+|관리자|admin|admin|
+|사용자|user|user|
+  
+</div>
+</details>
+
+[데이터베이스 테이블 구조]
+---
+<details>
+<summary>접기/펼치기</summary>
+<div markdown="1">
+  
 |users|user_sign_log|user_admin_log|
 |--|--|--|
 |id|idx|idx|
