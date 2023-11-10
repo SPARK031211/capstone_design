@@ -1,6 +1,7 @@
 ## Capstone Design Web
 ```
 * capstone design web의 소스 코드를 상업적으로 이용하지 마세요.
+* capstone design web은 bootstrap5를 기반으로 제작되었습니다.
 ```
 
 [테스트 계정]
