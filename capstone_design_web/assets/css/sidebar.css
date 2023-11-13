@@ -2,21 +2,29 @@
   z-index: 9999;
   position: fixed;
   left: 250px;
-  width: 250px;
+  width: 300px;
   height: 100%;
   margin-left: -250px;
+  padding: 30px;
   overflow-y: auto;
-  background: #FFF;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-#sidebar header {
+#sidebar .sidebar-nav {
+  background-color: #fff;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.1);
+}
+
+#sidebar .sidebar-nav header a {
   font-size: 20px;
   line-height: 52px;
   text-align: center;
+  padding: 20px 10px 0px 10px;
 }
 
 #sidebar header a {
@@ -45,7 +53,7 @@
   font-weight: 600;
   padding: 16px 24px;
   margin: 0 20px;
-  border-radius: 7px;
+  border-radius: 20px;
 }
 
 #sidebar .nav a:hover {
@@ -65,8 +73,9 @@
 .navbar {
   z-index: 1000;
   background: #FFF;
-  border-radius: 0;
+  border-radius: 20px;
   border: 0;
+  box-shadow: 0 4px 16px rgba(0,0,0,.1);
 }
 
 .m-nav {

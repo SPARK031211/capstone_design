@@ -1,5 +1,10 @@
 <?php
   require_once("../assets/database/mysql_config.php");
+
+  # 오늘 총 유저 카운트
+  $result_all_visited_count = query("select count(*) as count from visited_log");
+  $row_all_visited_count = $result_all_visited_count->fetch_array();
+  $today_all_visit_count = $row_all_visited_count['count'];
   
   if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
     $result_myaccount = query("select * from users where id ='".$_SESSION["id"]."'");
@@ -14,9 +19,6 @@
     }
 
     $result_myuserdata = query("select * from user_signin_log where connected_id ='".$_SESSION['id']."' order by idx desc");
-
-    date_default_timezone_set('Asia/Seoul');
-    $today_data = date("Y-m-d");
     
     # 가입한 총 유저 카운트
     $sql_users = query("select * from users");
@@ -88,8 +90,8 @@
             <div class="col-sm-3">
               <section>
                 <div class="account-box">
-                  <p>누적 방문자 (명)</p>
-                  <h4>제작중</h4>
+                  <p>오늘 누적 방문자 (명)</p>
+                  <h4><?php echo $today_all_visit_count; ?> 명</h4>
                 </div>
               </section>
             </div>

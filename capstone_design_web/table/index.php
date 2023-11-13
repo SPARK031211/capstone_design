@@ -44,7 +44,6 @@
       <!-- Header -->
       <?php require_once("../assets/components/nav/header.php")?>
 
-      <div class="container-fluid">
         <div id="layout_table">
           <div class="account-box">
             <h3>기록</h3>
@@ -129,7 +128,6 @@
             </nav>
           </div>
         </div>
-      </div>
     </div>
   </div>
 </body>

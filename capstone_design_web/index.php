@@ -5,7 +5,7 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/castone_design_web/main');
+	header('Location: '.$uri.'/db_board/main');
 	exit;
 ?>
 Something is wrong with the XAMPP installation :-(

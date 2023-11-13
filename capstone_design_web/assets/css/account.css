@@ -1,6 +1,6 @@
 .account-box {
   background: white;
-  border-radius: 7px;
+  border-radius: 20px;
   padding: 35px;
 }
 .account-box:first-child {
@@ -17,7 +17,7 @@
   margin-top: 25px;
   width: 100%;
   border: 1px solid rgb(128, 128, 128, .2);
-  border-radius: 7px;
+  border-radius: 20px;
   overflow: hidden;
   border-collapse: unset;
 }
@@ -35,8 +35,8 @@
   display: inline-block;
   background: #F7F7F7;
   color: black;
-  padding: 7px 14px;
-  margin-right: 7px;
+  padding: 20px 14px;
+  margin-right: 20px;
 }
 
 .memberinfo-table td,
@@ -50,7 +50,7 @@
   margin-top: 25px;
   width: 100%;
   border: 1px solid rgb(128, 128, 128, .2);
-  border-radius: 7px;
+  border-radius: 20px;
   overflow: hidden;
   border-collapse: unset;
 }
@@ -120,7 +120,7 @@
 .btn-del-account {
   outline: 0;
   border: 0;
-  border-radius: 7px;
+  border-radius: 20px;
   padding: 6px 12px;
   background: rgb(243, 63, 63, .8);
   color: #FFF;

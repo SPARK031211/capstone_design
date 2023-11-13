@@ -38,9 +38,6 @@
   } else {
     $sign_box = '
       <li>
-        <a style="cursor: default;">
-          <i class="fa fa-user-circle" aria-hidden="true"></i> Guest
-        </a>
         <a id="tab_signin" href="../signin">
           <i class="fa fa-sign-in" aria-hidden="true"></i> Sign In
         </a>
@@ -48,36 +45,39 @@
   }
 ?>
 <div id="sidebar">
-  <header>
-    <a>DASHBOARD</a>
-  </header>
-  <ul class="nav">
-    <li>
-      <a id="tab_home" href="../">
-        <i class="fa fa-home" aria-hidden="true"></i> Home
-      </a>
-    </li>
+  <div class="sidebar-nav">
+    <header>
+      <a>DASHBOARD</a>
+    </header>
 
-    <li>
-      <a id="tab_table" href="../table">
-        <i class="fa fa-table" aria-hidden="true"></i> Table
-      </a>
-    </li>
+    <hr/>
 
-    <li>
-      <a id="tab_chart" href="../chart">
-        <i class="fa fa-line-chart" aria-hidden="true"></i> Chart
-      </a>
-    </li>
+    <ul class="nav">
+      <li>
+        <a id="tab_home" href="../">
+          <i class="fa fa-home" aria-hidden="true"></i> Home
+        </a>
+      </li>
 
-    <li>
-      <a id="tab_help" href="../help">
-        <i class="fa fa-question-circle" aria-hidden="true"></i> Help
-      </a>
-    </li>
-  </ul>
+      <li>
+        <a id="tab_table" href="../table">
+          <i class="fa fa-table" aria-hidden="true"></i> Table
+        </a>
+      </li>
 
-  <ul class="nav" style="position: absolute; bottom: 0px; width: 100%">
-    <?php echo $sign_box; ?>
-  </ul>
+      <li>
+        <a id="tab_chart" href="../chart">
+          <i class="fa fa-line-chart" aria-hidden="true"></i> Chart
+        </a>
+      </li>
+
+      <li>
+        <a id="tab_help" href="../help">
+          <i class="fa fa-question-circle" aria-hidden="true"></i> Help
+        </a>
+      </li>
+      <hr/>
+      <?php echo $sign_box; ?>
+    </ul>
+  </div>
 </div>
