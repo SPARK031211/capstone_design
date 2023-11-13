@@ -1,7 +1,16 @@
 ## Capstone Design Web
 ```
 * capstone design web의 소스 코드를 상업적으로 이용하지 마세요.
-* capstone design web은 bootstrap5를 기반으로 제작되었습니다.
+* capstone design web은 bootstrap5를 사용하여 제작되었습니다.
+* 아직은 Desktop 환경에 최적화 되어있습니다. (곧, 모바일 사용자를 위한 개선 작업이 예정되었습니다.)
+```
+
+[업데이트]
+---
+```
+[2023년 11월 14일]
+* 방문자 수 기록 기능을 추가하였습니다.
+* UI 디자인이 변경되었습니다.
 ```
 
 [테스트 계정]
