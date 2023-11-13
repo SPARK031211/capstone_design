@@ -33,16 +33,16 @@
 <summary>접기/펼치기</summary>
 <div markdown="1">
   
-|users|user_sign_log|user_admin_log|
+|users|user_sign_log|user_admin_log|visited_log|
 |--|--|--|
-|id|idx|idx|
-|username|||
-||connected_id|connected_id|
-|password|||
-|||category|
-|ipaddress|ipaddress|ipaddress|
-|role|||
-|created_at|datetime|datetime|
+|id|idx|idx|idx|
+|username||||
+||connected_id|connected_id||
+|password||||
+|||category||
+|ipaddress|ipaddress|ipaddress|ipaddress|
+|role||||
+|created_at|datetime|datetime|datetime|
   
 </div>
 </details>
